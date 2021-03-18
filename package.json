@@ -1,0 +1,47 @@
+{
+  "name": "gatsby-starter-dossier",
+  "private": true,
+  "version": "0.1.0",
+  "author": "Ryan Todd Garza <ryantoddgarza@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "serve": "gatsby serve",
+    "start": "npm run develop"
+  },
+  "dependencies": {
+    "gatsby": "^3.1.1",
+    "gatsby-plugin-google-gtag": "^3.1.0",
+    "gatsby-plugin-image": "^1.1.1",
+    "gatsby-plugin-react-helmet": "^4.1.0",
+    "gatsby-plugin-sharp": "^3.1.1",
+    "gatsby-plugin-styled-components": "^4.1.0",
+    "gatsby-source-filesystem": "^3.1.0",
+    "gatsby-transformer-json": "^3.1.0",
+    "gatsby-transformer-remark": "^3.1.0",
+    "gatsby-transformer-sharp": "^3.1.0",
+    "html-loader": "^2.1.2",
+    "markdown-loader": "^6.0.0",
+    "path-browserify": "^1.0.1",
+    "postcss": "^8.2.8",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "react-markdown": "^5.0.3",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "^2.2.1"
+  }
+}
